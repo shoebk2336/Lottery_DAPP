@@ -1,0 +1,14 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+[networks]
+[networks.anvil]
+url = "http://127.0.0.1:8545" # Add this if you’re using a local Anvil node
+
+[script]
+default = "script/DeployLottery.s.sol" # Specify your deployment script if needed
+
+[test]
+default = "test" # Specify test folder if you have tests
